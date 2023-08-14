@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "Permanent Marker";
+  src: url(./fonts/PermanentMarker.ttf) format("truetype"),
+    url(./fonts/PermanentMarker.woff) format("woff");
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  font-family: "Inter", sans-serif;
+  background: #000000;
+}
+
+.header {
+  background-image: url(./images/Background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.header-title {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 140px;
+  line-height: 140px;
+  color: #147cd1;
+  text-transform: uppercase;
+  max-width: 1240px;
+  margin: auto;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.418);
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 790px;
+  margin: 100px auto 50px;
+}
+
+.card {
+  width: 350px;
+  margin-bottom: 60px;
+  padding: 45px 45px 70px;
+  background: #0066ff3a;
+  box-shadow: 4px 4px 5px rgb(17, 0, 255);
+}
+
+.card-image {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.card-title {
+  font-family: 'Permanent Marker' cursive;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: aqua;
+}
+
+.card-text {
+  font-size: 16px;
+  color: aqua;
+}
+
+.footer-sign {
+  font-size: 24px;
+  margin: auto;
+  color: aqua;
+}
+
+.footer {
+  display: flex;
+  min-height: 300px;
+  background-color: #0066ff3a;
+}
